@@ -6,7 +6,7 @@ import joblib
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # Load the SARIMAX model
-Sarimax_Model = joblib.load('../Data/EnergyForecast.sav')
+Sarimax_Model = joblib.load('../Model/EnergyForecast.sav')
 
 # Load the model data
 model_data = pd.read_hdf('../Data/model_data.h5', key='df')
