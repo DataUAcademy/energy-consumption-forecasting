@@ -1,4 +1,4 @@
-# energy-consumption-forecasting
+# Average Energy Consumption Forecasting
 
 **Brief Overview**
 
