@@ -46,7 +46,7 @@ This project aims to accurately forecast energy consumption patterns using a Sea
 
 ![Demo](https://github.com/SombrathnaSout/energy-consumption-forecasting/assets/138176913/788b53bb-b30f-4fb5-a409-673edc0ea564)
 
-*   The SARIMAX model achieved an RMSE of X on the held-out test set, demonstrating its predictive power.
+*   The SARIMAX model achieved an RMSE of 0.66 on the held-out test set, demonstrating its predictive power.
 *   The Streamlit dashboard enables  exploration of how factors like weather conditions and holidays impact energy demand. 
 
 **Contact & Connect**
