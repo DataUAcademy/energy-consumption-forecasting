@@ -4,6 +4,24 @@
 
 This project aims to accurately forecast energy consumption patterns using a Seasonal Autoregressive Integrated Moving Average (SARIMAX) model and provide interactive visualizations with Streamlit. This empowers data-driven insights for stakeholders in the energy sector.
 
+**Data Collection Limitations and Impact**
+
+The original energy consumption dataset exhibited inconsistencies in data collection across individual households. To create a workable model, the following approach was taken:
+
+*   **Averaging:** Total energy consumption for each day was divided by the number of households with data recordings for that day. This provides an aggregate view of energy usage patterns within the community.
+
+**Importance of Transparency**
+
+*   While this approach enables forecasting, it's important to acknowledge that it obscures individual household consumption behavior.
+*   Obtaining consistent data at the individual household level would significantly improve model accuracy and granularity of insights.
+
+**Future Directions**
+
+*   A key area for future improvement is securing a  dataset with reliable, comprehensive recording across all households.
+*   Exploring methods to impute or simulate realistic missing data patterns could also be a valuable research direction. 
+
+
+
 **Technologies Used**
 
 * Python
