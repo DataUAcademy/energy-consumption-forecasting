@@ -69,4 +69,4 @@ The original energy consumption dataset exhibited inconsistencies in data collec
 
 **Contact & Connect**
 
-For further inquiries or to discuss potential collaborations, please feel free to connect with me on LinkedIn: https://www.linkedin.com/in/sombrathna-sout/
+For further inquiries or to discuss potential collaborations, please feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/sombrathna-sout/). 
