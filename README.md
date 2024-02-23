@@ -31,9 +31,9 @@ The Streamlit dashboard delivers a suite of insightful visualizations:
 **How to Run**
 
 1. **Clone Repository:**
-   ```bash
+```bash
 git clone https://github.com/your-username/energy-consumption-forecasting.git
-   ```
+```
 2. Environment Setup:
 ```bash
 pip install -r requirements.txt 
