@@ -2,25 +2,22 @@
 
 **Brief Overview**
 
-This project aims to accurately forecast energy consumption patterns using a Seasonal Autoregressive Integrated Moving Average (SARIMAX) model and provide interactive visualizations with Streamlit. This empowers data-driven insights for stakeholders in the energy sector.
+This project provides an interactive platform for forecasting average daily energy consumption and analyzing consumer behavior insights. By integrating a Seasonal Autoregressive Integrated Moving Average (SARIMAX) model with a Streamlit dashboard, stakeholders can visualize energy consumption patterns and predict future demand.
 
 **Data Collection Limitations and Impact**
 
-The original energy consumption dataset exhibited inconsistencies in data collection across individual households. To create a workable model, the following approach was taken:
+The original dataset had inconsistencies in data collection across households. To mitigate this and create a viable model, we averaged the total energy consumption for each day by the number of contributing households, offering an aggregate perspective of community energy patterns.
 
-*   **Averaging:** Total energy consumption for each day was divided by the number of households with data recordings for that day. This provides an aggregate view of energy usage patterns within the community.
+**Insights and Visualizations**
 
-**Importance of Transparency**
+The Streamlit dashboard delivers a suite of insightful visualizations:
 
-*   While this approach enables forecasting, it's important to acknowledge that it obscures individual household consumption behavior.
-*   Obtaining consistent data at the individual household level would significantly improve model accuracy and granularity of insights.
-
-**Future Directions**
-
-*   A key area for future improvement is securing a  dataset with reliable, comprehensive recording across all households.
-*   Exploring methods to impute or simulate realistic missing data patterns could also be a valuable research direction. 
-
-
+* Comparative analysis of energy consumption on holidays vs. non-holidays.
+* Distribution of average daily energy consumption through interactive histograms.
+* Correlation between energy usage and environmental factors like temperature, humidity, and wind speed.
+* Clustering of households to identify different energy usage behaviors.
+* Forecast vs. actual energy consumption with RMSE evaluation metrics.
+* Cost predictions based on forecasted energy consumption.
 
 **Technologies Used**
 
@@ -29,44 +26,35 @@ The original energy consumption dataset exhibited inconsistencies in data collec
 * Pandas 
 * NumPy
 * Streamlit 
-
-**Key Features**
-
-*   Robust time series forecasting model tailored to capture energy demand seasonality and trends.
-*   Interactive Streamlit dashboard for user-friendly data exploration and forecast visualization.
-*   Clear visual presentation of actual vs. predicted energy consumption.
+* Plotly
 
 **How to Run**
 
-1.  **Clone Repository:**
-    ```bash
-    git clone https://github.com/SombrathnaSout/energy-consumption-forecasting
-    ```
-
-2.  **Environment Setup:**
-    ```bash
-    pip install -r requirements.txt 
-    ```
-
-3.  **Launch App:**
-    ```bash
-    streamlit run app.py 
-    ```
+1. **Clone Repository:**
+   ```bash
+git clone https://github.com/your-username/energy-consumption-forecasting.git
+   ```
+2. Environment Setup:
+```bash
+pip install -r requirements.txt 
+```
+3. Launch App:
+```bash
+streamlit run app.py 
+```
 
 **Project Structure**
 
-*   `data/`: Contains raw energy consumption datasets (.csv, .h5, or other format)
-*   `models/`: Houses the trained SARIMAX model  (e.g., a .pkl or .joblib file)
-*   `Code/`:  Script for data cleaning, feature engineering, and train/test splits.
-*   `app.py`: Core Streamlit application code. 
+- `data/`: Contains the energy consumption datasets.
+- `models/`: Stores the trained SARIMAX model file.
+- `app.py`: The Streamlit application code for running the dashboard.
 
 **Results**
+![Untitled design](https://github.com/DataUAcademy/energy-consumption-forecasting/assets/138176913/b50b9c83-35e9-4087-8cde-e912ad4fb075)
 
-![Demo](https://github.com/SombrathnaSout/energy-consumption-forecasting/assets/138176913/788b53bb-b30f-4fb5-a409-673edc0ea564)
-
-*   The SARIMAX model achieved an RMSE of 0.66 on the held-out test set, demonstrating its predictive power.
-*   The Streamlit dashboard enables  exploration of how factors like weather conditions and holidays impact energy demand. 
+- The SARIMAX model, with an RMSE of 0.66 on the test set, demonstrates the model's predictive capabilities.
+- Interactive dashboard facilitates real-time insights into energy demand influenced by weather and holiday factors.
 
 **Contact & Connect**
 
-For further inquiries or to discuss potential collaborations, please feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/sombrathna-sout/). 
+For inquiries or collaboration opportunities, connect with me on [LinkedIn](https://www.linkedin.com/in/sombrathna-sout/).
