@@ -50,7 +50,9 @@ streamlit run app.py
 - `app.py`: The Streamlit application code for running the dashboard.
 
 **Results**
-![Untitled design](https://github.com/DataUAcademy/energy-consumption-forecasting/assets/138176913/f0ca079b-5cea-43e7-9129-0d64bd67999d)
+
+![Demo 2](https://github.com/DataUAcademy/energy-consumption-forecasting/assets/138176913/8cf4d7c0-c6ab-4d4a-b7ca-86ae4614f79c)
+
 
 - The SARIMAX model, with an RMSE of 0.66 on the test set, demonstrates the model's predictive capabilities.
 - Interactive dashboard facilitates real-time insights into energy demand influenced by weather and holiday factors.
